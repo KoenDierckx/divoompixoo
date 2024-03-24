@@ -1,0 +1,12 @@
+{
+  "entity": {
+    "light": {
+      "screen": {
+        "default": "mdi:artboard"
+      }
+    }
+  },
+  "services": {
+    "run_commands": "mdi:code-block-brackets"
+  }
+}

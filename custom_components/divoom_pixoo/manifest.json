@@ -1,0 +1,15 @@
+{
+  "domain": "divoom_pixoo",
+  "name": "Divoom Pixoo",
+  "codeowners": ["@KoenDierckx"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/divoom_pixoo",
+  "homekit": {},
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "loggers": [],
+  "requirements": ["bidict==0.23.0"],
+  "ssdp": [],
+  "zeroconf": []
+}

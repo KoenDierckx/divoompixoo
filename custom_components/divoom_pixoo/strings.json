@@ -1,0 +1,66 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "device": "[%key:common::config_flow::data::device%]"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_service%]",
+      "no_devices_found": "[%key:common::config_flow::abort::no_devices_found%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]"
+    }
+  },
+  "entity": {
+    "light": {
+      "screen": {
+        "name": "Screen"
+      }
+    },
+    "siren": {
+      "siren": {
+        "name": "Siren"
+      }
+    },
+    "select": {
+      "clock": {
+        "name": "Clock"
+      },
+      "hour_mode": {
+        "name": "Hour mode",
+        "state": {
+          "hour_mode_24": "24 hour",
+          "hour_mode_12": "12 hour"
+        }
+      },
+      "temperature_mode": {
+        "name": "Temperature mode",
+        "state": {
+          "temperature_mode_celcius": "Celcius",
+          "temperature_mode_fahrenheit": "Fahrenheit"
+        }
+      },
+      "mirror_mode": {
+        "name": "Mirror mode",
+        "state": {
+          "mirror_mode_enable": "Enable",
+          "mirror_mode_disable": "Disable"
+        }
+      },
+      "rotation_mode": {
+        "name": "Rotation mode",
+        "state": {
+          "rotation_mode_0": "0°",
+          "rotation_mode_90": "90°",
+          "rotation_mode_180": "180°",
+          "rotation_mode_270": "270°"
+        }
+      }
+    }
+  }
+}
